@@ -1,18 +1,18 @@
 {
-  "name": "@safer-bwd/mongoose-state-machine",
-  "version": "0.4.2",
+  "name": "@zsajidleo/mongoose-state-machine",
+  "version": "0.5.0",
   "description": "A Mongoose plugin that implements a state machine into a schema",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/safer-bwd/mongoose-state-machine.git"
+    "url": "git+https://github.com/zsajidleo/mongoose-state-machine.git"
   },
   "author": "Anton Safronov <safer.anton@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/safer-bwd/mongoose-state-machine/issues"
+    "url": "https://github.com/zsajidleo/mongoose-state-machine/issues"
   },
-  "homepage": "https://github.com/safer-bwd/mongoose-state-machine#readme",
+  "homepage": "https://github.com/zsajidleo/mongoose-state-machine#readme",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -28,7 +28,7 @@
     ]
   },
   "peerDependencies": {
-    "mongoose": "^5.x"
+    "mongoose": "^6.x"
   },
   "dependencies": {
     "javascript-state-machine": "^3.1.0",
@@ -50,6 +50,6 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^22.21.0",
     "jest": "^26.1.0",
-    "mongoose": "^5.9.25"
+    "mongoose": "^6.8.2"
   }
 }
